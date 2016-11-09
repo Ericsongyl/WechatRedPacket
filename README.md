@@ -10,4 +10,8 @@ Android：实现监听微信红包，并自动抢红包[PS：微信消息需打�
 这里可以用到ADT里的uiautomatorviewer工具，可以清晰地看到每个界面每个控件的属性，如控件类型（是Button，还是ImageView，或者是TextView……）、
 clickable的值是否可点击等；还会用到AccessibilityService类中getRootInActiveWindow这个方法，来获取这个界面。
 
+======================
+微信红包插件，简单、安全。
+注意：此app安装后，请在手机“设置---辅助服务”（可能有些手机不是这样称呼），开启“微信红包插件”服务才能提醒有微信红包。
+
 
