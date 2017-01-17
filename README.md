@@ -9,7 +9,9 @@ Android：实现监听微信红包，并自动抢红包，春节必不可少[PS�
 
 这里可以用到ADT里的uiautomatorviewer工具，可以清晰地看到每个界面每个控件的属性，如控件类型（是Button，还是ImageView，或者是TextView……）、
 clickable的值是否可点击等；还会用到AccessibilityService类中getRootInActiveWindow这个方法，来获取这个界面。
+
 了解详细讲解，请关注博客[http://blog.csdn.net/weiren1101/article/details/53112439](http://blog.csdn.net/weiren1101/article/details/53112439)
+
 ![原理图](https://github.com/Ericsongyl/WechatRedPacket/blob/master/pic/wrp1.png)
 
 ======================
@@ -19,7 +21,9 @@ clickable的值是否可点击等；还会用到AccessibilityService类中getRoo
 
 Android系统4.1以上、微信版本6.3.28及以上。
 
-此app安装后，请在手机“设置---辅助服务”（可能有些手机不是这样称呼），开启“微信红包插件”服务才能提醒有微信红包。如下图：
+此app安装后，请在手机“设置---辅助服务”（可能有些手机不是这样称呼），开启“微信红包插件”服务才能提醒有微信红包。
+如下图：
+
 ![](https://github.com/Ericsongyl/WechatRedPacket/blob/master/pic/wrp2.png)
 ![](https://github.com/Ericsongyl/WechatRedPacket/blob/master/pic/wrp3.png)
 ![](https://github.com/Ericsongyl/WechatRedPacket/blob/master/pic/wrp4.png)
